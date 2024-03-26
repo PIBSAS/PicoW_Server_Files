@@ -1,7 +1,7 @@
 import network
 
-ssidRouter     = 'TELWINET:9E-5E' #Enter the router name
-passwordRouter = '68297640' #Enter the router password
+ssidRouter     = 'RaspberryPiBuenosAires' #Enter the router name
+passwordRouter = 'Visita_La_Web' #Enter the router password
 
 ssidAP         = 'Campus'#Enter the AP name
 passwordAP     = 'Virtual2024' #Enter the AP password
