@@ -6,8 +6,8 @@ from machine import Pin
 
 led = Pin("LED", Pin.OUT)
 
-ssid = 'TELWINET:9E-5E'
-password = '68297640'
+ssid = 'RaspberryPiBuenosAires'
+password = 'Visita_La_Web'
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
