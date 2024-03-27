@@ -16,7 +16,7 @@ while not wlan.isconnected():
 
 def ap_mode(ssid, password):
     ap.active(True)
-    ap.config(essid='Campus', password='Virtual2024')
+    ap.config(essid=ssid, password=password,  authmode=network.AUTH_WPA_WPA2_PSK)
     
     while not ap.active():
         pass
